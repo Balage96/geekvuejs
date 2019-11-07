@@ -5,6 +5,7 @@
         <ul>
           <li v-for="ninja in ninjas">{{ ninja.name }}</li>
         </ul>
+        Szeretlek Flóra!
         <app-footer v-bind:title="title"></app-footer>
     </div>
 </template>
@@ -24,7 +25,6 @@ export default {
     data () {
         return {
           ninjas: [
-              {name: 'Ryu', speciality: 'Vue Components', show: false},
               {name: 'Crystal', speciality: 'HTML Wizardry', show: false},
               {name: 'Hitoshi', speciality: 'Click Events', show: false},
               {name: 'Tango', speciality: 'Conditionals', show: false},
